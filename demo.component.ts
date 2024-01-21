@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
   templateUrl: './demo.component.html',
   styleUrl: './demo.component.css'
 })
-export class DemoComponent {
-
+export class DemoComponent 
+{
+    public Mycolor = "orange";
+    public Veg = true;
 }
