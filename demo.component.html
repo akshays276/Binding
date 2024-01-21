@@ -1,9 +1,9 @@
-<h1>Demonstration of class binding</h1>
+<h1>Demonstration of Event Binding</h1>
 
-<h1 [class] = "'success'">
-    Marvellous Infosystems
-</h1>
+<button (click) = "MarvellousEvent()">Marvellous</button>
 
-<h1 [class] = "'failure'">
-    Angular Web Development
-</h1>
+<button (click) = "InfosystemsEvent()">Infosystems</button>
+
+<button (click) = "AngularEvent($event)">Angular</button>
+
+<h1>{{Name}}</h1>
