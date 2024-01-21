@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class DemoComponent 
 {
-  public UserName : string = "";
-  
+  // Event listener for button
+  public AcceptData(value : any)
+  {
+    console.log(value);
+  }
 }
